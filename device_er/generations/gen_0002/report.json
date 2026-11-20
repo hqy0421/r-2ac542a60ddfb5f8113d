@@ -1,0 +1,2356 @@
+{
+  "generation_id": "gen_0002",
+  "status": "ok",
+  "features": {
+    "path": "features.csv",
+    "shape": [
+      16,
+      148
+    ],
+    "archive_ids": [
+      101,
+      102,
+      103,
+      104,
+      106,
+      109,
+      201,
+      202,
+      205,
+      207,
+      208,
+      301,
+      303,
+      305,
+      310,
+      311
+    ],
+    "columns": [
+      "vibration__mean",
+      "vibration__median",
+      "vibration__standard_deviation",
+      "vibration__variance",
+      "vibration__skewness",
+      "vibration__kurtosis",
+      "vibration__minimum",
+      "vibration__maximum",
+      "vibration__quantile__q_0.25",
+      "vibration__quantile__q_0.75",
+      "vibration__linear_trend__attr_\"slope\"",
+      "vibration__linear_trend__attr_\"intercept\"",
+      "vibration__linear_trend__attr_\"rvalue\"",
+      "vibration__fft_coefficient__attr_\"abs\"__coeff_0",
+      "vibration__fft_coefficient__attr_\"abs\"__coeff_1",
+      "vibration__fft_coefficient__attr_\"abs\"__coeff_2",
+      "vibration__fft_coefficient__attr_\"abs\"__coeff_3",
+      "vibration__autocorrelation__lag_1",
+      "vibration__autocorrelation__lag_2",
+      "vibration__autocorrelation__lag_3",
+      "vibration__c3__lag_1",
+      "vibration__c3__lag_2",
+      "vibration__cid_ce__normalize_True",
+      "vibration__sample_entropy",
+      "vibration__longest_strike_above_mean",
+      "vibration__number_peaks__n_1",
+      "vibration__number_peaks__n_3",
+      "vibration__mean_abs_change",
+      "vibration__mean_change",
+      "vibration__absolute_sum_of_changes",
+      "vibration__root_mean_square",
+      "vibration__agg_autocorrelation__f_agg_\"mean\"__maxlag_40",
+      "vibration__number_crossing_m__m_0",
+      "vibration__spkt_welch_density__coeff_2",
+      "vibration__ratio_beyond_r_sigma__r_1",
+      "vibration__abs_energy",
+      "vibration__mean_second_derivative_central",
+      "temperature__mean",
+      "temperature__median",
+      "temperature__standard_deviation",
+      "temperature__variance",
+      "temperature__skewness",
+      "temperature__kurtosis",
+      "temperature__minimum",
+      "temperature__maximum",
+      "temperature__quantile__q_0.25",
+      "temperature__quantile__q_0.75",
+      "temperature__linear_trend__attr_\"slope\"",
+      "temperature__linear_trend__attr_\"intercept\"",
+      "temperature__linear_trend__attr_\"rvalue\"",
+      "temperature__fft_coefficient__attr_\"abs\"__coeff_0",
+      "temperature__fft_coefficient__attr_\"abs\"__coeff_1",
+      "temperature__fft_coefficient__attr_\"abs\"__coeff_2",
+      "temperature__fft_coefficient__attr_\"abs\"__coeff_3",
+      "temperature__autocorrelation__lag_1",
+      "temperature__autocorrelation__lag_2",
+      "temperature__autocorrelation__lag_3",
+      "temperature__c3__lag_1",
+      "temperature__c3__lag_2",
+      "temperature__cid_ce__normalize_True",
+      "temperature__sample_entropy",
+      "temperature__longest_strike_above_mean",
+      "temperature__number_peaks__n_1",
+      "temperature__number_peaks__n_3",
+      "temperature__mean_abs_change",
+      "temperature__mean_change",
+      "temperature__absolute_sum_of_changes",
+      "temperature__root_mean_square",
+      "temperature__agg_autocorrelation__f_agg_\"mean\"__maxlag_40",
+      "temperature__number_crossing_m__m_0",
+      "temperature__spkt_welch_density__coeff_2",
+      "temperature__ratio_beyond_r_sigma__r_1",
+      "temperature__abs_energy",
+      "temperature__mean_second_derivative_central",
+      "current__mean",
+      "current__median",
+      "current__standard_deviation",
+      "current__variance",
+      "current__skewness",
+      "current__kurtosis",
+      "current__minimum",
+      "current__maximum",
+      "current__quantile__q_0.25",
+      "current__quantile__q_0.75",
+      "current__linear_trend__attr_\"slope\"",
+      "current__linear_trend__attr_\"intercept\"",
+      "current__linear_trend__attr_\"rvalue\"",
+      "current__fft_coefficient__attr_\"abs\"__coeff_0",
+      "current__fft_coefficient__attr_\"abs\"__coeff_1",
+      "current__fft_coefficient__attr_\"abs\"__coeff_2",
+      "current__fft_coefficient__attr_\"abs\"__coeff_3",
+      "current__autocorrelation__lag_1",
+      "current__autocorrelation__lag_2",
+      "current__autocorrelation__lag_3",
+      "current__c3__lag_1",
+      "current__c3__lag_2",
+      "current__cid_ce__normalize_True",
+      "current__sample_entropy",
+      "current__longest_strike_above_mean",
+      "current__number_peaks__n_1",
+      "current__number_peaks__n_3",
+      "current__mean_abs_change",
+      "current__mean_change",
+      "current__absolute_sum_of_changes",
+      "current__root_mean_square",
+      "current__agg_autocorrelation__f_agg_\"mean\"__maxlag_40",
+      "current__number_crossing_m__m_0",
+      "current__spkt_welch_density__coeff_2",
+      "current__ratio_beyond_r_sigma__r_1",
+      "current__abs_energy",
+      "current__mean_second_derivative_central",
+      "pressure__mean",
+      "pressure__median",
+      "pressure__standard_deviation",
+      "pressure__variance",
+      "pressure__skewness",
+      "pressure__kurtosis",
+      "pressure__minimum",
+      "pressure__maximum",
+      "pressure__quantile__q_0.25",
+      "pressure__quantile__q_0.75",
+      "pressure__linear_trend__attr_\"slope\"",
+      "pressure__linear_trend__attr_\"intercept\"",
+      "pressure__linear_trend__attr_\"rvalue\"",
+      "pressure__fft_coefficient__attr_\"abs\"__coeff_0",
+      "pressure__fft_coefficient__attr_\"abs\"__coeff_1",
+      "pressure__fft_coefficient__attr_\"abs\"__coeff_2",
+      "pressure__fft_coefficient__attr_\"abs\"__coeff_3",
+      "pressure__autocorrelation__lag_1",
+      "pressure__autocorrelation__lag_2",
+      "pressure__autocorrelation__lag_3",
+      "pressure__c3__lag_1",
+      "pressure__c3__lag_2",
+      "pressure__cid_ce__normalize_True",
+      "pressure__sample_entropy",
+      "pressure__longest_strike_above_mean",
+      "pressure__number_peaks__n_1",
+      "pressure__number_peaks__n_3",
+      "pressure__mean_abs_change",
+      "pressure__mean_change",
+      "pressure__absolute_sum_of_changes",
+      "pressure__root_mean_square",
+      "pressure__agg_autocorrelation__f_agg_\"mean\"__maxlag_40",
+      "pressure__number_crossing_m__m_0",
+      "pressure__spkt_welch_density__coeff_2",
+      "pressure__ratio_beyond_r_sigma__r_1",
+      "pressure__abs_energy",
+      "pressure__mean_second_derivative_central"
+    ],
+    "nan_cells": 0,
+    "archives_without_telemetry": [],
+    "sample_first5_archives_x_first8_features": {
+      "101": {
+        "vibration__mean": 3.7356464397524145,
+        "vibration__median": 3.7036327557550486,
+        "vibration__standard_deviation": 0.29778821117865234,
+        "vibration__variance": 0.08867781871698165,
+        "vibration__skewness": 0.07786748371602874,
+        "vibration__kurtosis": -0.2755705911500259,
+        "vibration__minimum": 3.1016573727141914,
+        "vibration__maximum": 4.525174986613905
+      },
+      "102": {
+        "vibration__mean": 5.177435153558005,
+        "vibration__median": 5.170780287037762,
+        "vibration__standard_deviation": 0.48039736802619587,
+        "vibration__variance": 0.23078163120649625,
+        "vibration__skewness": -0.05159576483959083,
+        "vibration__kurtosis": -0.4780526185433027,
+        "vibration__minimum": 4.099596046709972,
+        "vibration__maximum": 6.154511696112273
+      },
+      "103": {
+        "vibration__mean": 0.5116272067032269,
+        "vibration__median": 0.48629573032078266,
+        "vibration__standard_deviation": 0.47812480740705243,
+        "vibration__variance": 0.22860333145803097,
+        "vibration__skewness": 0.35326669336608535,
+        "vibration__kurtosis": -0.3804355281550338,
+        "vibration__minimum": -0.35671875214657783,
+        "vibration__maximum": 1.6500618368562028
+      },
+      "104": {
+        "vibration__mean": 2.9112479021316786,
+        "vibration__median": 2.8753967269960454,
+        "vibration__standard_deviation": 0.42472893311473675,
+        "vibration__variance": 0.18039466662478254,
+        "vibration__skewness": 0.011412213410236079,
+        "vibration__kurtosis": -0.3530749159878144,
+        "vibration__minimum": 1.8806098099620037,
+        "vibration__maximum": 3.843469231632657
+      },
+      "106": {
+        "vibration__mean": 4.1223714248619014,
+        "vibration__median": 4.137569193247872,
+        "vibration__standard_deviation": 0.3803962717820326,
+        "vibration__variance": 0.14470132358567003,
+        "vibration__skewness": -0.41094119544555946,
+        "vibration__kurtosis": -0.07034818766776807,
+        "vibration__minimum": 3.2218173790185607,
+        "vibration__maximum": 4.94172958327964
+      }
+    }
+  },
+  "pairwise_probabilities": {
+    "path": "pair_probabilities.csv",
+    "n_pairs": 120,
+    "pairs": [
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 102,
+        "prob": 1e-05
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 103,
+        "prob": 0.000207
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 104,
+        "prob": 3.7e-05
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 106,
+        "prob": 0.038657
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 109,
+        "prob": 0.000108
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 201,
+        "prob": 0.954653
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 202,
+        "prob": 1.3e-05
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 205,
+        "prob": 2.2e-05
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 207,
+        "prob": 0.000108
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 208,
+        "prob": 0.002135
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 301,
+        "prob": 0.975834
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 303,
+        "prob": 0.002366
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 305,
+        "prob": 0.000174
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 310,
+        "prob": 0.002434
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 311,
+        "prob": 0.831014
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 103,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 104,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 106,
+        "prob": 3.8e-05
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 109,
+        "prob": 9e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 201,
+        "prob": 0.000165
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 202,
+        "prob": 0.963024
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 205,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 207,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 208,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 301,
+        "prob": 0.000186
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 303,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 305,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 310,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 311,
+        "prob": 0.002117
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 104,
+        "prob": 5.2e-05
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 106,
+        "prob": 5.6e-05
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 109,
+        "prob": 9e-06
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 201,
+        "prob": 0.003414
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 202,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 205,
+        "prob": 0.000275
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 207,
+        "prob": 0.000431
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 208,
+        "prob": 0.004776
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 301,
+        "prob": 0.007184
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 303,
+        "prob": 0.952916
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 305,
+        "prob": 0.001765
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 310,
+        "prob": 0.121331
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 311,
+        "prob": 0.009009
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 106,
+        "prob": 1.2e-05
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 109,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 201,
+        "prob": 0.000502
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 202,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 205,
+        "prob": 0.006058
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 207,
+        "prob": 0.002681
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 208,
+        "prob": 0.060175
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 301,
+        "prob": 0.001209
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 303,
+        "prob": 0.002347
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 305,
+        "prob": 0.046003
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 310,
+        "prob": 0.001131
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 311,
+        "prob": 0.001652
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 109,
+        "prob": 5.5e-05
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 201,
+        "prob": 0.392492
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 202,
+        "prob": 4.8e-05
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 205,
+        "prob": 6e-06
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 207,
+        "prob": 2.9e-05
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 208,
+        "prob": 0.000582
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 301,
+        "prob": 0.240314
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 303,
+        "prob": 0.000645
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 305,
+        "prob": 4.7e-05
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 310,
+        "prob": 0.000663
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 311,
+        "prob": 0.862061
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 201,
+        "prob": 0.001389
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 202,
+        "prob": 2.2e-05
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 205,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 207,
+        "prob": 4e-06
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 208,
+        "prob": 9e-05
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 301,
+        "prob": 0.00257
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 303,
+        "prob": 8.7e-05
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 305,
+        "prob": 6e-06
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 310,
+        "prob": 8.9e-05
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 311,
+        "prob": 0.004963
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 202,
+        "prob": 0.00024
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 205,
+        "prob": 0.000119
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 207,
+        "prob": 0.001785
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 208,
+        "prob": 0.002313
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 301,
+        "prob": 0.845837
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 303,
+        "prob": 0.001948
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 305,
+        "prob": 0.000819
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 310,
+        "prob": 0.013102
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 311,
+        "prob": 0.856616
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 205,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 207,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 208,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 301,
+        "prob": 4.3e-05
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 303,
+        "prob": 2e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 305,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 310,
+        "prob": 1e-06
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 311,
+        "prob": 0.000491
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 207,
+        "prob": 0.003122
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 208,
+        "prob": 0.019607
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 301,
+        "prob": 0.000252
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 303,
+        "prob": 0.003548
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 305,
+        "prob": 0.974199
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 310,
+        "prob": 0.001971
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 311,
+        "prob": 0.000317
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 208,
+        "prob": 0.966502
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 301,
+        "prob": 0.003281
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 303,
+        "prob": 0.014542
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 305,
+        "prob": 0.018403
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 310,
+        "prob": 0.005644
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 311,
+        "prob": 0.004119
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 301,
+        "prob": 0.020064
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 303,
+        "prob": 0.012327
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 305,
+        "prob": 0.136608
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 310,
+        "prob": 0.02792
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 311,
+        "prob": 0.004462
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 303,
+        "prob": 0.023202
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 305,
+        "prob": 0.00029
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 310,
+        "prob": 0.00513
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 311,
+        "prob": 0.75534
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 305,
+        "prob": 0.022479
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 310,
+        "prob": 0.427598
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 311,
+        "prob": 0.005173
+      },
+      {
+        "archive_id_a": 305,
+        "archive_id_b": 310,
+        "prob": 0.002798
+      },
+      {
+        "archive_id_a": 305,
+        "archive_id_b": 311,
+        "prob": 0.000553
+      },
+      {
+        "archive_id_a": 310,
+        "archive_id_b": 311,
+        "prob": 0.006437
+      }
+    ]
+  },
+  "constraints": {
+    "must_link": [
+      [
+        103,
+        303
+      ],
+      [
+        207,
+        208
+      ]
+    ],
+    "cannot_link": [
+      [
+        101,
+        106
+      ]
+    ]
+  },
+  "costs": {
+    "false_merge_cost": 6.0,
+    "missed_merge_cost": 1.5
+  },
+  "partition": {
+    "entities": [
+      {
+        "entity_id": 101,
+        "members": [
+          101,
+          201,
+          301
+        ]
+      },
+      {
+        "entity_id": 102,
+        "members": [
+          102,
+          202
+        ]
+      },
+      {
+        "entity_id": 103,
+        "members": [
+          103,
+          303
+        ]
+      },
+      {
+        "entity_id": 104,
+        "members": [
+          104
+        ]
+      },
+      {
+        "entity_id": 106,
+        "members": [
+          106,
+          311
+        ]
+      },
+      {
+        "entity_id": 109,
+        "members": [
+          109
+        ]
+      },
+      {
+        "entity_id": 205,
+        "members": [
+          205,
+          305
+        ]
+      },
+      {
+        "entity_id": 207,
+        "members": [
+          207,
+          208
+        ]
+      },
+      {
+        "entity_id": 310,
+        "members": [
+          310
+        ]
+      }
+    ],
+    "n_entities": 9
+  },
+  "master_records": {
+    "path": "master_records.csv",
+    "records": [
+      {
+        "entity_id": 101,
+        "members": [
+          101,
+          201,
+          301
+        ],
+        "serial_no": "SN-77001",
+        "asset_tag": "PMP-1001",
+        "vendor": "FlowServe",
+        "model": "PumpX-100",
+        "location": "Plant-A/B1",
+        "firmware": "2.1.0",
+        "install_date": "2019-03-11",
+        "warranty_months": 36,
+        "active": 1,
+        "notes": "primary record"
+      },
+      {
+        "entity_id": 102,
+        "members": [
+          102,
+          202
+        ],
+        "serial_no": "SN-88002",
+        "asset_tag": "CMP-2002",
+        "vendor": "AtlasCopco",
+        "model": "Comp-50",
+        "location": "Plant-A/B2",
+        "firmware": "1.4.0",
+        "install_date": "2020-06-01",
+        "warranty_months": 24,
+        "active": 1,
+        "notes": "duplicate from MES"
+      },
+      {
+        "entity_id": 103,
+        "members": [
+          103,
+          303
+        ],
+        "serial_no": "SN-99003",
+        "asset_tag": "VLV-3003",
+        "vendor": "Emerson",
+        "model": "ValvePro-9",
+        "location": "Plant-B",
+        "firmware": "3.0.1",
+        "install_date": "2018-01-20",
+        "warranty_months": 12,
+        "active": 1,
+        "notes": ""
+      },
+      {
+        "entity_id": 104,
+        "members": [
+          104
+        ],
+        "serial_no": "SN-11004",
+        "asset_tag": "MTR-4004",
+        "vendor": "Siemens",
+        "model": "MotorS-4",
+        "location": "Plant-C",
+        "firmware": "5.2.0",
+        "install_date": "2021-11-05",
+        "warranty_months": 48,
+        "active": 1,
+        "notes": null
+      },
+      {
+        "entity_id": 106,
+        "members": [
+          106,
+          311
+        ],
+        "serial_no": "SN-77009",
+        "asset_tag": "PMP-1009",
+        "vendor": "FlowServe",
+        "model": "PumpX-100",
+        "location": "Plant-D",
+        "firmware": "2.1.0",
+        "install_date": "2022-02-14",
+        "warranty_months": 36,
+        "active": 1,
+        "notes": null
+      },
+      {
+        "entity_id": 109,
+        "members": [
+          109
+        ],
+        "serial_no": "SN-12009",
+        "asset_tag": "GEN-9009",
+        "vendor": "Caterpillar",
+        "model": "Gen-500",
+        "location": "Plant-E",
+        "firmware": "7.0.0",
+        "install_date": "2016-05-19",
+        "warranty_months": null,
+        "active": 1,
+        "notes": null
+      },
+      {
+        "entity_id": 205,
+        "members": [
+          205,
+          305
+        ],
+        "serial_no": "SN-55005",
+        "asset_tag": "FAN-5005",
+        "vendor": "ebm-papst",
+        "model": "FanZ-77",
+        "location": "Plant-A/Roof",
+        "firmware": "0.9.2",
+        "install_date": null,
+        "warranty_months": 6,
+        "active": 1,
+        "notes": null
+      },
+      {
+        "entity_id": 207,
+        "members": [
+          207,
+          208
+        ],
+        "serial_no": "SN-66007",
+        "asset_tag": "BLW-7007",
+        "vendor": "Howden",
+        "model": "Blower-2",
+        "location": "Plant-B",
+        "firmware": "1.1.0",
+        "install_date": "2017-08-30",
+        "warranty_months": 0,
+        "active": 1,
+        "notes": ""
+      },
+      {
+        "entity_id": 310,
+        "members": [
+          310
+        ],
+        "serial_no": "SN-13010",
+        "asset_tag": null,
+        "vendor": "KSB",
+        "model": "Hydro-3",
+        "location": null,
+        "firmware": null,
+        "install_date": null,
+        "warranty_months": null,
+        "active": null,
+        "notes": null
+      }
+    ],
+    "attribute_provenance": {
+      "101": {
+        "serial_no": 101,
+        "asset_tag": 101,
+        "vendor": 101,
+        "model": 101,
+        "location": 101,
+        "firmware": 101,
+        "install_date": 101,
+        "warranty_months": 101,
+        "active": 101,
+        "notes": 101
+      },
+      "102": {
+        "serial_no": 102,
+        "asset_tag": 102,
+        "vendor": 102,
+        "model": 102,
+        "location": 102,
+        "firmware": 102,
+        "install_date": 102,
+        "warranty_months": 102,
+        "active": 102,
+        "notes": 202
+      },
+      "103": {
+        "serial_no": 103,
+        "asset_tag": 103,
+        "vendor": 103,
+        "model": 103,
+        "location": 103,
+        "firmware": 303,
+        "install_date": 103,
+        "warranty_months": 103,
+        "active": 103,
+        "notes": 303
+      },
+      "104": {
+        "serial_no": 104,
+        "asset_tag": 104,
+        "vendor": 104,
+        "model": 104,
+        "location": 104,
+        "firmware": 104,
+        "install_date": 104,
+        "warranty_months": 104,
+        "active": 104,
+        "notes": null
+      },
+      "106": {
+        "serial_no": 106,
+        "asset_tag": 106,
+        "vendor": 106,
+        "model": 106,
+        "location": 106,
+        "firmware": 106,
+        "install_date": 106,
+        "warranty_months": 106,
+        "active": 106,
+        "notes": null
+      },
+      "109": {
+        "serial_no": 109,
+        "asset_tag": 109,
+        "vendor": 109,
+        "model": 109,
+        "location": 109,
+        "firmware": 109,
+        "install_date": 109,
+        "warranty_months": null,
+        "active": 109,
+        "notes": null
+      },
+      "205": {
+        "serial_no": 205,
+        "asset_tag": 205,
+        "vendor": 205,
+        "model": 205,
+        "location": 205,
+        "firmware": 305,
+        "install_date": null,
+        "warranty_months": 205,
+        "active": 205,
+        "notes": null
+      },
+      "207": {
+        "serial_no": 207,
+        "asset_tag": 207,
+        "vendor": 207,
+        "model": 207,
+        "location": 207,
+        "firmware": 208,
+        "install_date": 207,
+        "warranty_months": 208,
+        "active": 207,
+        "notes": 208
+      },
+      "310": {
+        "serial_no": 310,
+        "asset_tag": null,
+        "vendor": 310,
+        "model": 310,
+        "location": null,
+        "firmware": null,
+        "install_date": null,
+        "warranty_months": null,
+        "active": null,
+        "notes": null
+      }
+    }
+  },
+  "risk": {
+    "total_expected_risk": 9.324838,
+    "merge_risk": 3.029845,
+    "split_risk": 6.294993,
+    "solver": "scipy-milp(highs)",
+    "per_pair": [
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 102,
+        "prob": 1e-05,
+        "decision": "split",
+        "risk": 1.6e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 103,
+        "prob": 0.000207,
+        "decision": "split",
+        "risk": 0.000311,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 104,
+        "prob": 3.7e-05,
+        "decision": "split",
+        "risk": 5.5e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 106,
+        "prob": 0.038657,
+        "decision": "split",
+        "risk": 0.057986,
+        "constraint": "cannot_link"
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 109,
+        "prob": 0.000108,
+        "decision": "split",
+        "risk": 0.000162,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 201,
+        "prob": 0.954653,
+        "decision": "merge",
+        "risk": 0.27208,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 202,
+        "prob": 1.3e-05,
+        "decision": "split",
+        "risk": 2e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 205,
+        "prob": 2.2e-05,
+        "decision": "split",
+        "risk": 3.3e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 207,
+        "prob": 0.000108,
+        "decision": "split",
+        "risk": 0.000162,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 208,
+        "prob": 0.002135,
+        "decision": "split",
+        "risk": 0.003202,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 301,
+        "prob": 0.975834,
+        "decision": "merge",
+        "risk": 0.144993,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 303,
+        "prob": 0.002366,
+        "decision": "split",
+        "risk": 0.003548,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 305,
+        "prob": 0.000174,
+        "decision": "split",
+        "risk": 0.00026,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 310,
+        "prob": 0.002434,
+        "decision": "split",
+        "risk": 0.00365,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 101,
+        "archive_id_b": 311,
+        "prob": 0.831014,
+        "decision": "split",
+        "risk": 1.24652,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 103,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 104,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 106,
+        "prob": 3.8e-05,
+        "decision": "split",
+        "risk": 5.7e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 109,
+        "prob": 9e-06,
+        "decision": "split",
+        "risk": 1.4e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 201,
+        "prob": 0.000165,
+        "decision": "split",
+        "risk": 0.000248,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 202,
+        "prob": 0.963024,
+        "decision": "merge",
+        "risk": 0.221859,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 205,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 207,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 208,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 301,
+        "prob": 0.000186,
+        "decision": "split",
+        "risk": 0.000279,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 303,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 3e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 305,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 310,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 3e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 102,
+        "archive_id_b": 311,
+        "prob": 0.002117,
+        "decision": "split",
+        "risk": 0.003175,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 104,
+        "prob": 5.2e-05,
+        "decision": "split",
+        "risk": 7.8e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 106,
+        "prob": 5.6e-05,
+        "decision": "split",
+        "risk": 8.5e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 109,
+        "prob": 9e-06,
+        "decision": "split",
+        "risk": 1.3e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 201,
+        "prob": 0.003414,
+        "decision": "split",
+        "risk": 0.005121,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 202,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 205,
+        "prob": 0.000275,
+        "decision": "split",
+        "risk": 0.000412,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 207,
+        "prob": 0.000431,
+        "decision": "split",
+        "risk": 0.000646,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 208,
+        "prob": 0.004776,
+        "decision": "split",
+        "risk": 0.007164,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 301,
+        "prob": 0.007184,
+        "decision": "split",
+        "risk": 0.010776,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 303,
+        "prob": 0.952916,
+        "decision": "merge",
+        "risk": 0.282505,
+        "constraint": "must_link"
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 305,
+        "prob": 0.001765,
+        "decision": "split",
+        "risk": 0.002647,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 310,
+        "prob": 0.121331,
+        "decision": "split",
+        "risk": 0.181997,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 103,
+        "archive_id_b": 311,
+        "prob": 0.009009,
+        "decision": "split",
+        "risk": 0.013513,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 106,
+        "prob": 1.2e-05,
+        "decision": "split",
+        "risk": 1.8e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 109,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 3e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 201,
+        "prob": 0.000502,
+        "decision": "split",
+        "risk": 0.000754,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 202,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 205,
+        "prob": 0.006058,
+        "decision": "split",
+        "risk": 0.009087,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 207,
+        "prob": 0.002681,
+        "decision": "split",
+        "risk": 0.004022,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 208,
+        "prob": 0.060175,
+        "decision": "split",
+        "risk": 0.090262,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 301,
+        "prob": 0.001209,
+        "decision": "split",
+        "risk": 0.001813,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 303,
+        "prob": 0.002347,
+        "decision": "split",
+        "risk": 0.00352,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 305,
+        "prob": 0.046003,
+        "decision": "split",
+        "risk": 0.069005,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 310,
+        "prob": 0.001131,
+        "decision": "split",
+        "risk": 0.001697,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 104,
+        "archive_id_b": 311,
+        "prob": 0.001652,
+        "decision": "split",
+        "risk": 0.002479,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 109,
+        "prob": 5.5e-05,
+        "decision": "split",
+        "risk": 8.2e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 201,
+        "prob": 0.392492,
+        "decision": "split",
+        "risk": 0.588738,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 202,
+        "prob": 4.8e-05,
+        "decision": "split",
+        "risk": 7.2e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 205,
+        "prob": 6e-06,
+        "decision": "split",
+        "risk": 9e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 207,
+        "prob": 2.9e-05,
+        "decision": "split",
+        "risk": 4.4e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 208,
+        "prob": 0.000582,
+        "decision": "split",
+        "risk": 0.000873,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 301,
+        "prob": 0.240314,
+        "decision": "split",
+        "risk": 0.360472,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 303,
+        "prob": 0.000645,
+        "decision": "split",
+        "risk": 0.000967,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 305,
+        "prob": 4.7e-05,
+        "decision": "split",
+        "risk": 7.1e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 310,
+        "prob": 0.000663,
+        "decision": "split",
+        "risk": 0.000995,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 106,
+        "archive_id_b": 311,
+        "prob": 0.862061,
+        "decision": "merge",
+        "risk": 0.827634,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 201,
+        "prob": 0.001389,
+        "decision": "split",
+        "risk": 0.002084,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 202,
+        "prob": 2.2e-05,
+        "decision": "split",
+        "risk": 3.2e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 205,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 207,
+        "prob": 4e-06,
+        "decision": "split",
+        "risk": 6e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 208,
+        "prob": 9e-05,
+        "decision": "split",
+        "risk": 0.000135,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 301,
+        "prob": 0.00257,
+        "decision": "split",
+        "risk": 0.003855,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 303,
+        "prob": 8.7e-05,
+        "decision": "split",
+        "risk": 0.00013,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 305,
+        "prob": 6e-06,
+        "decision": "split",
+        "risk": 1e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 310,
+        "prob": 8.9e-05,
+        "decision": "split",
+        "risk": 0.000134,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 109,
+        "archive_id_b": 311,
+        "prob": 0.004963,
+        "decision": "split",
+        "risk": 0.007445,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 202,
+        "prob": 0.00024,
+        "decision": "split",
+        "risk": 0.000359,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 205,
+        "prob": 0.000119,
+        "decision": "split",
+        "risk": 0.000179,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 207,
+        "prob": 0.001785,
+        "decision": "split",
+        "risk": 0.002678,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 208,
+        "prob": 0.002313,
+        "decision": "split",
+        "risk": 0.003469,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 301,
+        "prob": 0.845837,
+        "decision": "merge",
+        "risk": 0.92498,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 303,
+        "prob": 0.001948,
+        "decision": "split",
+        "risk": 0.002922,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 305,
+        "prob": 0.000819,
+        "decision": "split",
+        "risk": 0.001229,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 310,
+        "prob": 0.013102,
+        "decision": "split",
+        "risk": 0.019653,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 201,
+        "archive_id_b": 311,
+        "prob": 0.856616,
+        "decision": "split",
+        "risk": 1.284924,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 205,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 207,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 208,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 3e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 301,
+        "prob": 4.3e-05,
+        "decision": "split",
+        "risk": 6.5e-05,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 303,
+        "prob": 2e-06,
+        "decision": "split",
+        "risk": 3e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 305,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 310,
+        "prob": 1e-06,
+        "decision": "split",
+        "risk": 2e-06,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 202,
+        "archive_id_b": 311,
+        "prob": 0.000491,
+        "decision": "split",
+        "risk": 0.000736,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 207,
+        "prob": 0.003122,
+        "decision": "split",
+        "risk": 0.004684,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 208,
+        "prob": 0.019607,
+        "decision": "split",
+        "risk": 0.02941,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 301,
+        "prob": 0.000252,
+        "decision": "split",
+        "risk": 0.000378,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 303,
+        "prob": 0.003548,
+        "decision": "split",
+        "risk": 0.005323,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 305,
+        "prob": 0.974199,
+        "decision": "merge",
+        "risk": 0.154807,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 310,
+        "prob": 0.001971,
+        "decision": "split",
+        "risk": 0.002957,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 205,
+        "archive_id_b": 311,
+        "prob": 0.000317,
+        "decision": "split",
+        "risk": 0.000475,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 208,
+        "prob": 0.966502,
+        "decision": "merge",
+        "risk": 0.200987,
+        "constraint": "must_link"
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 301,
+        "prob": 0.003281,
+        "decision": "split",
+        "risk": 0.004922,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 303,
+        "prob": 0.014542,
+        "decision": "split",
+        "risk": 0.021814,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 305,
+        "prob": 0.018403,
+        "decision": "split",
+        "risk": 0.027604,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 310,
+        "prob": 0.005644,
+        "decision": "split",
+        "risk": 0.008467,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 207,
+        "archive_id_b": 311,
+        "prob": 0.004119,
+        "decision": "split",
+        "risk": 0.006178,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 301,
+        "prob": 0.020064,
+        "decision": "split",
+        "risk": 0.030096,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 303,
+        "prob": 0.012327,
+        "decision": "split",
+        "risk": 0.01849,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 305,
+        "prob": 0.136608,
+        "decision": "split",
+        "risk": 0.204912,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 310,
+        "prob": 0.02792,
+        "decision": "split",
+        "risk": 0.04188,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 208,
+        "archive_id_b": 311,
+        "prob": 0.004462,
+        "decision": "split",
+        "risk": 0.006693,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 303,
+        "prob": 0.023202,
+        "decision": "split",
+        "risk": 0.034804,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 305,
+        "prob": 0.00029,
+        "decision": "split",
+        "risk": 0.000435,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 310,
+        "prob": 0.00513,
+        "decision": "split",
+        "risk": 0.007695,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 301,
+        "archive_id_b": 311,
+        "prob": 0.75534,
+        "decision": "split",
+        "risk": 1.13301,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 305,
+        "prob": 0.022479,
+        "decision": "split",
+        "risk": 0.033718,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 310,
+        "prob": 0.427598,
+        "decision": "split",
+        "risk": 0.641397,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 303,
+        "archive_id_b": 311,
+        "prob": 0.005173,
+        "decision": "split",
+        "risk": 0.007759,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 305,
+        "archive_id_b": 310,
+        "prob": 0.002798,
+        "decision": "split",
+        "risk": 0.004197,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 305,
+        "archive_id_b": 311,
+        "prob": 0.000553,
+        "decision": "split",
+        "risk": 0.00083,
+        "constraint": null
+      },
+      {
+        "archive_id_a": 310,
+        "archive_id_b": 311,
+        "prob": 0.006437,
+        "decision": "split",
+        "risk": 0.009655,
+        "constraint": null
+      }
+    ],
+    "baselines": {
+      "all_singletons": {
+        "total_risk": 17.537532,
+        "merge_risk": 0.0,
+        "split_risk": 17.537532,
+        "feasible": true
+      },
+      "all_merged": {
+        "feasible": false,
+        "reason": "violates cannot_link constraints"
+      },
+      "threshold_connected_components": {
+        "threshold": 0.8,
+        "total_risk": 21.966585,
+        "merge_risk": 20.343243,
+        "split_risk": 1.623342,
+        "must_link_violations": 0,
+        "cannot_link_violations": 1,
+        "feasible": false
+      }
+    },
+    "explanation": [
+      "全局最低期望成对风险 R* = 9.3248（误合并风险 3.0298 + 漏合并风险 6.2950），求解器：scipy-milp(highs)。",
+      "对比基线：全部拆分风险 17.5375；全部合并且违反必分约束（不可行）；阈值 τ=0.800 连通分量风险 21.9666，违反必合 0 处、必分 1 处。",
+      "划分满足全部必合/必分约束，且通过传递性（三角不等式）校验，为一致划分而非阈值连通图。"
+    ]
+  },
+  "rebinding": {
+    "n_work_orders": 18,
+    "n_changed": 0,
+    "n_rebound_to_null": 2,
+    "updates": [
+      {
+        "wo_id": 1,
+        "archive_id": 101,
+        "old_entity_id": 101,
+        "new_entity_id": 101
+      },
+      {
+        "wo_id": 2,
+        "archive_id": 201,
+        "old_entity_id": 101,
+        "new_entity_id": 101
+      },
+      {
+        "wo_id": 3,
+        "archive_id": 301,
+        "old_entity_id": 101,
+        "new_entity_id": 101
+      },
+      {
+        "wo_id": 4,
+        "archive_id": 102,
+        "old_entity_id": 102,
+        "new_entity_id": 102
+      },
+      {
+        "wo_id": 5,
+        "archive_id": 202,
+        "old_entity_id": 102,
+        "new_entity_id": 102
+      },
+      {
+        "wo_id": 6,
+        "archive_id": 103,
+        "old_entity_id": 103,
+        "new_entity_id": 103
+      },
+      {
+        "wo_id": 7,
+        "archive_id": 303,
+        "old_entity_id": 103,
+        "new_entity_id": 103
+      },
+      {
+        "wo_id": 8,
+        "archive_id": 104,
+        "old_entity_id": 104,
+        "new_entity_id": 104
+      },
+      {
+        "wo_id": 9,
+        "archive_id": 205,
+        "old_entity_id": 205,
+        "new_entity_id": 205
+      },
+      {
+        "wo_id": 10,
+        "archive_id": 305,
+        "old_entity_id": 205,
+        "new_entity_id": 205
+      },
+      {
+        "wo_id": 11,
+        "archive_id": 207,
+        "old_entity_id": 207,
+        "new_entity_id": 207
+      },
+      {
+        "wo_id": 12,
+        "archive_id": 208,
+        "old_entity_id": 207,
+        "new_entity_id": 207
+      },
+      {
+        "wo_id": 13,
+        "archive_id": 106,
+        "old_entity_id": 106,
+        "new_entity_id": 106
+      },
+      {
+        "wo_id": 14,
+        "archive_id": 109,
+        "old_entity_id": 109,
+        "new_entity_id": 109
+      },
+      {
+        "wo_id": 15,
+        "archive_id": 310,
+        "old_entity_id": 310,
+        "new_entity_id": 310
+      },
+      {
+        "wo_id": 16,
+        "archive_id": 999,
+        "old_entity_id": null,
+        "new_entity_id": null
+      },
+      {
+        "wo_id": 17,
+        "archive_id": 555,
+        "old_entity_id": null,
+        "new_entity_id": null
+      },
+      {
+        "wo_id": 18,
+        "archive_id": 311,
+        "old_entity_id": 106,
+        "new_entity_id": 106
+      }
+    ]
+  },
+  "model": {
+    "path": "/workspace/device_er/model/pairwise_model.pkl",
+    "selected_features": [
+      "pressure__linear_trend__attr_\"intercept\"",
+      "current__maximum",
+      "pressure__quantile__q_0.75",
+      "current__quantile__q_0.75",
+      "pressure__root_mean_square",
+      "pressure__mean",
+      "current__standard_deviation",
+      "current__root_mean_square",
+      "pressure__quantile__q_0.25",
+      "pressure__median",
+      "pressure__maximum",
+      "current__mean"
+    ],
+    "training": {
+      "n_entities": 70,
+      "n_archives": 147,
+      "n_pairs": 742,
+      "n_positive_pairs": 106,
+      "seed": 7,
+      "top_k": 12,
+      "cv_auc_mean": 0.9999250093738283,
+      "cv_auc_std": 0.00014998125234346737,
+      "train_auc": 0.9999851667259997,
+      "train_brier": 0.003292723104378043
+    },
+    "versions": {
+      "python": "3.11.15",
+      "numpy": "1.26.4",
+      "pandas": "2.2.3",
+      "sklearn": "1.5.2",
+      "tsfresh": "0.0.0"
+    }
+  },
+  "timing": {
+    "extraction_seconds": 16.341,
+    "model_seconds": 0.013,
+    "optimization_seconds": 0.016,
+    "total_seconds": 16.421
+  },
+  "summary": {
+    "n_archives": 16,
+    "n_entities": 9,
+    "n_pairs": 120,
+    "n_must_link": 2,
+    "n_cannot_link": 1,
+    "total_expected_risk": 9.324838,
+    "risk_vs_all_singletons": 8.212694,
+    "risk_vs_threshold_cc": 12.641747,
+    "n_work_orders_rebound": 0,
+    "n_work_orders_nulled": 2
+  }
+}

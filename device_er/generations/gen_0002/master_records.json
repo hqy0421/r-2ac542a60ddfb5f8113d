@@ -1,0 +1,270 @@
+[
+  {
+    "entity_id": 101,
+    "members": [
+      101,
+      201,
+      301
+    ],
+    "member_count": 3,
+    "serial_no": "SN-77001",
+    "asset_tag": "PMP-1001",
+    "vendor": "FlowServe",
+    "model": "PumpX-100",
+    "location": "Plant-A/B1",
+    "firmware": "2.1.0",
+    "install_date": "2019-03-11",
+    "warranty_months": 36,
+    "active": 1,
+    "notes": "primary record",
+    "provenance": {
+      "serial_no": 101,
+      "asset_tag": 101,
+      "vendor": 101,
+      "model": 101,
+      "location": 101,
+      "firmware": 101,
+      "install_date": 101,
+      "warranty_months": 101,
+      "active": 101,
+      "notes": 101
+    }
+  },
+  {
+    "entity_id": 102,
+    "members": [
+      102,
+      202
+    ],
+    "member_count": 2,
+    "serial_no": "SN-88002",
+    "asset_tag": "CMP-2002",
+    "vendor": "AtlasCopco",
+    "model": "Comp-50",
+    "location": "Plant-A/B2",
+    "firmware": "1.4.0",
+    "install_date": "2020-06-01",
+    "warranty_months": 24,
+    "active": 1,
+    "notes": "duplicate from MES",
+    "provenance": {
+      "serial_no": 102,
+      "asset_tag": 102,
+      "vendor": 102,
+      "model": 102,
+      "location": 102,
+      "firmware": 102,
+      "install_date": 102,
+      "warranty_months": 102,
+      "active": 102,
+      "notes": 202
+    }
+  },
+  {
+    "entity_id": 103,
+    "members": [
+      103,
+      303
+    ],
+    "member_count": 2,
+    "serial_no": "SN-99003",
+    "asset_tag": "VLV-3003",
+    "vendor": "Emerson",
+    "model": "ValvePro-9",
+    "location": "Plant-B",
+    "firmware": "3.0.1",
+    "install_date": "2018-01-20",
+    "warranty_months": 12,
+    "active": 1,
+    "notes": "",
+    "provenance": {
+      "serial_no": 103,
+      "asset_tag": 103,
+      "vendor": 103,
+      "model": 103,
+      "location": 103,
+      "firmware": 303,
+      "install_date": 103,
+      "warranty_months": 103,
+      "active": 103,
+      "notes": 303
+    }
+  },
+  {
+    "entity_id": 104,
+    "members": [
+      104
+    ],
+    "member_count": 1,
+    "serial_no": "SN-11004",
+    "asset_tag": "MTR-4004",
+    "vendor": "Siemens",
+    "model": "MotorS-4",
+    "location": "Plant-C",
+    "firmware": "5.2.0",
+    "install_date": "2021-11-05",
+    "warranty_months": 48,
+    "active": 1,
+    "notes": null,
+    "provenance": {
+      "serial_no": 104,
+      "asset_tag": 104,
+      "vendor": 104,
+      "model": 104,
+      "location": 104,
+      "firmware": 104,
+      "install_date": 104,
+      "warranty_months": 104,
+      "active": 104,
+      "notes": null
+    }
+  },
+  {
+    "entity_id": 106,
+    "members": [
+      106,
+      311
+    ],
+    "member_count": 2,
+    "serial_no": "SN-77009",
+    "asset_tag": "PMP-1009",
+    "vendor": "FlowServe",
+    "model": "PumpX-100",
+    "location": "Plant-D",
+    "firmware": "2.1.0",
+    "install_date": "2022-02-14",
+    "warranty_months": 36,
+    "active": 1,
+    "notes": null,
+    "provenance": {
+      "serial_no": 106,
+      "asset_tag": 106,
+      "vendor": 106,
+      "model": 106,
+      "location": 106,
+      "firmware": 106,
+      "install_date": 106,
+      "warranty_months": 106,
+      "active": 106,
+      "notes": null
+    }
+  },
+  {
+    "entity_id": 109,
+    "members": [
+      109
+    ],
+    "member_count": 1,
+    "serial_no": "SN-12009",
+    "asset_tag": "GEN-9009",
+    "vendor": "Caterpillar",
+    "model": "Gen-500",
+    "location": "Plant-E",
+    "firmware": "7.0.0",
+    "install_date": "2016-05-19",
+    "warranty_months": null,
+    "active": 1,
+    "notes": null,
+    "provenance": {
+      "serial_no": 109,
+      "asset_tag": 109,
+      "vendor": 109,
+      "model": 109,
+      "location": 109,
+      "firmware": 109,
+      "install_date": 109,
+      "warranty_months": null,
+      "active": 109,
+      "notes": null
+    }
+  },
+  {
+    "entity_id": 205,
+    "members": [
+      205,
+      305
+    ],
+    "member_count": 2,
+    "serial_no": "SN-55005",
+    "asset_tag": "FAN-5005",
+    "vendor": "ebm-papst",
+    "model": "FanZ-77",
+    "location": "Plant-A/Roof",
+    "firmware": "0.9.2",
+    "install_date": null,
+    "warranty_months": 6,
+    "active": 1,
+    "notes": null,
+    "provenance": {
+      "serial_no": 205,
+      "asset_tag": 205,
+      "vendor": 205,
+      "model": 205,
+      "location": 205,
+      "firmware": 305,
+      "install_date": null,
+      "warranty_months": 205,
+      "active": 205,
+      "notes": null
+    }
+  },
+  {
+    "entity_id": 207,
+    "members": [
+      207,
+      208
+    ],
+    "member_count": 2,
+    "serial_no": "SN-66007",
+    "asset_tag": "BLW-7007",
+    "vendor": "Howden",
+    "model": "Blower-2",
+    "location": "Plant-B",
+    "firmware": "1.1.0",
+    "install_date": "2017-08-30",
+    "warranty_months": 0,
+    "active": 1,
+    "notes": "",
+    "provenance": {
+      "serial_no": 207,
+      "asset_tag": 207,
+      "vendor": 207,
+      "model": 207,
+      "location": 207,
+      "firmware": 208,
+      "install_date": 207,
+      "warranty_months": 208,
+      "active": 207,
+      "notes": 208
+    }
+  },
+  {
+    "entity_id": 310,
+    "members": [
+      310
+    ],
+    "member_count": 1,
+    "serial_no": "SN-13010",
+    "asset_tag": null,
+    "vendor": "KSB",
+    "model": "Hydro-3",
+    "location": null,
+    "firmware": null,
+    "install_date": null,
+    "warranty_months": null,
+    "active": null,
+    "notes": null,
+    "provenance": {
+      "serial_no": 310,
+      "asset_tag": null,
+      "vendor": 310,
+      "model": 310,
+      "location": null,
+      "firmware": null,
+      "install_date": null,
+      "warranty_months": null,
+      "active": null,
+      "notes": null
+    }
+  }
+]

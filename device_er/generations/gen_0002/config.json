@@ -1,0 +1,137 @@
+{
+  "db_path": "/workspace/device_er/data/device_er.db",
+  "model_path": "/workspace/device_er/model/pairwise_model.pkl",
+  "costs": {
+    "false_merge_cost": 6.0,
+    "missed_merge_cost": 1.5
+  },
+  "source_priority": {
+    "erp": 1,
+    "mes": 2,
+    "iot": 3
+  },
+  "must_link": [
+    [
+      207,
+      208
+    ],
+    [
+      103,
+      303
+    ]
+  ],
+  "cannot_link": [
+    [
+      101,
+      106
+    ]
+  ],
+  "fc_parameters": {
+    "mean": null,
+    "median": null,
+    "standard_deviation": null,
+    "variance": null,
+    "skewness": null,
+    "kurtosis": null,
+    "minimum": null,
+    "maximum": null,
+    "quantile": [
+      {
+        "q": 0.25
+      },
+      {
+        "q": 0.75
+      }
+    ],
+    "linear_trend": [
+      {
+        "attr": "slope"
+      },
+      {
+        "attr": "intercept"
+      },
+      {
+        "attr": "rvalue"
+      }
+    ],
+    "fft_coefficient": [
+      {
+        "coeff": 0,
+        "attr": "abs"
+      },
+      {
+        "coeff": 1,
+        "attr": "abs"
+      },
+      {
+        "coeff": 2,
+        "attr": "abs"
+      },
+      {
+        "coeff": 3,
+        "attr": "abs"
+      }
+    ],
+    "autocorrelation": [
+      {
+        "lag": 1
+      },
+      {
+        "lag": 2
+      },
+      {
+        "lag": 3
+      }
+    ],
+    "c3": [
+      {
+        "lag": 1
+      },
+      {
+        "lag": 2
+      }
+    ],
+    "cid_ce": [
+      {
+        "normalize": true
+      }
+    ],
+    "sample_entropy": null,
+    "longest_strike_above_mean": null,
+    "number_peaks": [
+      {
+        "n": 1
+      },
+      {
+        "n": 3
+      }
+    ],
+    "mean_abs_change": null,
+    "mean_change": null,
+    "absolute_sum_of_changes": null,
+    "root_mean_square": null,
+    "agg_autocorrelation": [
+      {
+        "f_agg": "mean",
+        "maxlag": 40
+      }
+    ],
+    "number_crossing_m": [
+      {
+        "m": 0
+      }
+    ],
+    "spkt_welch_density": [
+      {
+        "coeff": 2
+      }
+    ],
+    "ratio_beyond_r_sigma": [
+      {
+        "r": 1
+      }
+    ],
+    "abs_energy": null,
+    "mean_second_derivative_central": null
+  }
+}

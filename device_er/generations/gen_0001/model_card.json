@@ -1,0 +1,211 @@
+{
+  "format": "device-er/pairwise-model",
+  "version": 1,
+  "created_at": "2026-11-20T06:41:14.694888+00:00",
+  "selected_features": [
+    "pressure__linear_trend__attr_\"intercept\"",
+    "current__maximum",
+    "pressure__quantile__q_0.75",
+    "current__quantile__q_0.75",
+    "pressure__root_mean_square",
+    "pressure__mean",
+    "current__standard_deviation",
+    "current__root_mean_square",
+    "pressure__quantile__q_0.25",
+    "pressure__median",
+    "pressure__maximum",
+    "current__mean"
+  ],
+  "feature_scale": [
+    2.8255775579357936,
+    28.756628895169367,
+    2.9081031657810206,
+    25.41627628239557,
+    2.8921498809245954,
+    2.895232078468421,
+    3.470983564214806,
+    22.571556685548057,
+    2.949889323529875,
+    2.89319257963931,
+    2.8521156056281165,
+    22.193963298103867
+  ],
+  "feature_impute": [
+    3.379842098179349,
+    15.852889669758657,
+    3.4344236625786673,
+    14.121395303107045,
+    3.3780441982413025,
+    3.3769041313967048,
+    2.048337357670764,
+    12.502651383435275,
+    3.317086752360065,
+    3.3824510573232036,
+    3.626281321360882,
+    12.2224453088192
+  ],
+  "attr_names": [
+    "serial_eq",
+    "asset_tag_eq",
+    "vendor_eq",
+    "model_token_jaccard",
+    "location_eq",
+    "install_date_eq",
+    "firmware_eq",
+    "warranty_eq",
+    "serial_both_present",
+    "asset_tag_both_present"
+  ],
+  "coef": [
+    -0.6676319521497875,
+    -0.6301570266510779,
+    -0.5602008783733925,
+    -0.6257963977889961,
+    -0.5449817595392147,
+    -0.5421677992397741,
+    -0.8656765063185076,
+    -0.649096925937353,
+    -0.5308103979194089,
+    -0.5312034185127628,
+    -0.5942048341902694,
+    -0.6580838291883587,
+    3.547750522893968,
+    2.392532140644485,
+    0.8339536713272644,
+    1.5647766984255427,
+    0.3660749494834117,
+    2.219681934869747,
+    -0.2829503214169339,
+    0.27504883687399806,
+    0.026561182892024277,
+    -0.17654356687749653
+  ],
+  "intercept": -4.152867506884229,
+  "training": {
+    "n_entities": 70,
+    "n_archives": 147,
+    "n_pairs": 742,
+    "n_positive_pairs": 106,
+    "seed": 7,
+    "top_k": 12,
+    "cv_auc_mean": 0.9999250093738283,
+    "cv_auc_std": 0.00014998125234346737,
+    "train_auc": 0.9999851667259997,
+    "train_brier": 0.003292723104378043
+  },
+  "fc_parameters": {
+    "mean": null,
+    "median": null,
+    "standard_deviation": null,
+    "variance": null,
+    "skewness": null,
+    "kurtosis": null,
+    "minimum": null,
+    "maximum": null,
+    "quantile": [
+      {
+        "q": 0.25
+      },
+      {
+        "q": 0.75
+      }
+    ],
+    "linear_trend": [
+      {
+        "attr": "slope"
+      },
+      {
+        "attr": "intercept"
+      },
+      {
+        "attr": "rvalue"
+      }
+    ],
+    "fft_coefficient": [
+      {
+        "coeff": 0,
+        "attr": "abs"
+      },
+      {
+        "coeff": 1,
+        "attr": "abs"
+      },
+      {
+        "coeff": 2,
+        "attr": "abs"
+      },
+      {
+        "coeff": 3,
+        "attr": "abs"
+      }
+    ],
+    "autocorrelation": [
+      {
+        "lag": 1
+      },
+      {
+        "lag": 2
+      },
+      {
+        "lag": 3
+      }
+    ],
+    "c3": [
+      {
+        "lag": 1
+      },
+      {
+        "lag": 2
+      }
+    ],
+    "cid_ce": [
+      {
+        "normalize": true
+      }
+    ],
+    "sample_entropy": null,
+    "longest_strike_above_mean": null,
+    "number_peaks": [
+      {
+        "n": 1
+      },
+      {
+        "n": 3
+      }
+    ],
+    "mean_abs_change": null,
+    "mean_change": null,
+    "absolute_sum_of_changes": null,
+    "root_mean_square": null,
+    "agg_autocorrelation": [
+      {
+        "f_agg": "mean",
+        "maxlag": 40
+      }
+    ],
+    "number_crossing_m": [
+      {
+        "m": 0
+      }
+    ],
+    "spkt_welch_density": [
+      {
+        "coeff": 2
+      }
+    ],
+    "ratio_beyond_r_sigma": [
+      {
+        "r": 1
+      }
+    ],
+    "abs_energy": null,
+    "mean_second_derivative_central": null
+  },
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "sklearn": "1.5.2",
+    "tsfresh": "0.0.0"
+  }
+}

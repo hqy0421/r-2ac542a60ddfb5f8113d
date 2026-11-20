@@ -1,0 +1,10 @@
+entity_id,member_count,members,serial_no,asset_tag,vendor,model,location,firmware,install_date,warranty_months,active,notes
+101,3,101 201 301,SN-77001,PMP-1001,FlowServe,PumpX-100,Plant-A/B1,2.1.0,2019-03-11,36.0,1.0,primary record
+102,2,102 202,SN-88002,CMP-2002,AtlasCopco,Comp-50,Plant-A/B2,1.4.0,2020-06-01,24.0,1.0,duplicate from MES
+103,2,103 303,SN-99003,VLV-3003,Emerson,ValvePro-9,Plant-B,3.0.1,2018-01-20,12.0,1.0,
+104,1,104,SN-11004,MTR-4004,Siemens,MotorS-4,Plant-C,5.2.0,2021-11-05,48.0,1.0,
+106,2,106 311,SN-77009,PMP-1009,FlowServe,PumpX-100,Plant-D,2.1.0,2022-02-14,36.0,1.0,
+109,1,109,SN-12009,GEN-9009,Caterpillar,Gen-500,Plant-E,7.0.0,2016-05-19,,1.0,
+205,2,205 305,SN-55005,FAN-5005,ebm-papst,FanZ-77,Plant-A/Roof,0.9.2,,6.0,1.0,
+207,2,207 208,SN-66007,BLW-7007,Howden,Blower-2,Plant-B,1.1.0,2017-08-30,0.0,1.0,
+310,1,310,SN-13010,,KSB,Hydro-3,,,,,,

@@ -1,0 +1,65 @@
+{
+  "generation_id": "gen_0001",
+  "created_at": "2026-11-20T06:54:54.893174+00:00",
+  "files": {
+    "features.csv": {
+      "sha256": "9fe972a464688c962476ea79c9699d3c2a8ee75a8fb9dbfbb180254cd82456e2",
+      "bytes": 46339
+    },
+    "pair_probabilities.csv": {
+      "sha256": "117f9996dc0d016bba71120580a4567b25902926873fcbbaacc634fe1d293baf",
+      "bytes": 3379
+    },
+    "partition.json": {
+      "sha256": "478870fddb403f6ce6b36400d819ed39683349addb9495287a5a48658cee44e3",
+      "bytes": 797
+    },
+    "master_records.csv": {
+      "sha256": "67eae14fca911774844b3be412ea2197b4c219373bff6a4f7ca7cbc37dc428cc",
+      "bytes": 870
+    },
+    "master_records.json": {
+      "sha256": "ca79d0ef7b8873dfe4fa8ee79fc49d06af4cf7b5fb2801e282a63e2e97777b0d",
+      "bytes": 5537
+    },
+    "work_orders_after.csv": {
+      "sha256": "860ce3b54e1126fa0be639d9b9c2fe0af2095ca559f7dc13088be8b0b1faf8d0",
+      "bytes": 948
+    },
+    "work_order_changes.csv": {
+      "sha256": "241910616e4802c97a40185a4c6bc1fb58ee02a57c81873d4a9072c96ee46906",
+      "bytes": 278
+    },
+    "risk_pairs.csv": {
+      "sha256": "7dfa2a15eca2c9962a5954f38f5a549b353dc8947bd48c08a2b8c0b0516c0b8f",
+      "bytes": 6668
+    },
+    "report.json": {
+      "sha256": "29e14b99b374db0d3724f1cb1ae57421ac389c6afd1cce27abbaedd83ae1df31",
+      "bytes": 54980
+    },
+    "config.json": {
+      "sha256": "35551fa5a94f01d021ab8f8a392e12165fd77d0fa651567fcbf6265af67398fe",
+      "bytes": 2066
+    },
+    "model_card.json": {
+      "sha256": "86ff509e3f55cd98853d9967a750a4436c552b98883ca8320abee7c9140e4061",
+      "bytes": 4053
+    },
+    "model_copy.pkl": {
+      "sha256": "a7e6b376b5178b9acd8020a497b4986409d878c09fffb5c7e7d79692af163f76",
+      "bytes": 2295
+    }
+  },
+  "n_archives": 16,
+  "n_entities": 9,
+  "total_risk": 9.324837798039683,
+  "solver": "scipy-milp(highs)",
+  "model_versions": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "sklearn": "1.5.2",
+    "tsfresh": "0.0.0"
+  }
+}
